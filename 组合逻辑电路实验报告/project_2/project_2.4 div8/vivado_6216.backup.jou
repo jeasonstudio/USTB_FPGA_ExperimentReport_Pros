@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 17 20:38:24 2017
+# Process ID: 6216
+# Current directory: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6988 C:\Users\Administrator\Desktop\数字逻辑\数字逻辑实验\实验二\div16_8\div16_8.xpr
+# Log file: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.xpr
+launch_simulation
+source div16_8_tb.tcl
+close_sim

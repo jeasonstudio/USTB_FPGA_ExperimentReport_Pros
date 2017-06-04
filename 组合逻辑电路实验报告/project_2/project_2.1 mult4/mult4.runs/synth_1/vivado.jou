@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 17 20:12:23 2017
+# Process ID: 4436
+# Current directory: G:/pro/suiji/suiji.runs/synth_1
+# Command line: vivado.exe -log mult4.vds -mode batch -messageDb vivado.pb -notrace -source mult4.tcl
+# Log file: G:/pro/suiji/suiji.runs/synth_1/mult4.vds
+# Journal file: G:/pro/suiji/suiji.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult4.tcl -notrace

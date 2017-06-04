@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 03 11:39:54 2017
+# Process ID: 16276
+# Current directory: D:/loadsranm/loadsranm.runs/impl_1
+# Command line: vivado.exe -log loadsram.vdi -applog -messageDb vivado.pb -mode batch -source loadsram.tcl -notrace
+# Log file: D:/loadsranm/loadsranm.runs/impl_1/loadsram.vdi
+# Journal file: D:/loadsranm/loadsranm.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source loadsram.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "loadsram.tcl" line 51)
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 03 11:39:59 2017...

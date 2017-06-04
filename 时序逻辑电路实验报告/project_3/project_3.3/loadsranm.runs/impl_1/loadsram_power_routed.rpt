@@ -1,0 +1,166 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date             : Tue Apr 04 15:25:31 2017
+| Host             : MrC running 64-bit major release  (build 9200)
+| Command          : 
+| Design           : loadsram
+| Device           : xc7a35tcsg324-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+----------------------------------+
+| Total On-Chip Power (W)  | 66.618 (Junction temp exceeded!) |
+| Dynamic (W)              | 66.132                           |
+| Device Static (W)        | 0.486                            |
+| Effective TJA (C/W)      | 4.8                              |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 125.0                            |
+| Confidence Level         | Low                              |
+| Setting File             | ---                              |
+| Simulation Activity File | ---                              |
+| Design Nets Matched      | NA                               |
++--------------------------+----------------------------------+
+
+
+1.1 On-Chip Components
+----------------------
+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Slice Logic    |     0.815 |      441 |       --- |             --- |
+|   LUT as Logic |     0.713 |      168 |     20800 |            0.81 |
+|   Register     |     0.066 |      224 |     41600 |            0.54 |
+|   BUFG         |     0.023 |        4 |        32 |           12.50 |
+|   CARRY4       |     0.014 |        7 |      8150 |            0.09 |
+|   Others       |     0.000 |       20 |       --- |             --- |
+| Signals        |     1.619 |      408 |       --- |             --- |
+| I/O            |    63.697 |       77 |       210 |           36.67 |
+| Static Power   |     0.486 |          |           |                 |
+| Total          |    66.618 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     2.887 |       2.546 |      0.341 |
+| Vccaux    |       1.800 |     2.383 |       2.330 |      0.053 |
+| Vcco33    |       3.300 |    17.998 |      17.997 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.010 |       0.000 |      0.010 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 4.8                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++---------------------------+-----------+
+| Name                      | Power (W) |
++---------------------------+-----------+
+| loadsram                  |    66.132 |
+|   U1                      |     0.078 |
+|   U3                      |     1.036 |
+|   dataBus1_IOBUF[0]_inst  |     1.180 |
+|   dataBus1_IOBUF[10]_inst |     0.368 |
+|   dataBus1_IOBUF[11]_inst |     0.541 |
+|   dataBus1_IOBUF[12]_inst |     1.181 |
+|   dataBus1_IOBUF[13]_inst |     0.620 |
+|   dataBus1_IOBUF[14]_inst |     0.615 |
+|   dataBus1_IOBUF[15]_inst |     0.625 |
+|   dataBus1_IOBUF[1]_inst  |     0.620 |
+|   dataBus1_IOBUF[2]_inst  |     0.614 |
+|   dataBus1_IOBUF[3]_inst  |     0.623 |
+|   dataBus1_IOBUF[4]_inst  |     1.180 |
+|   dataBus1_IOBUF[5]_inst  |     0.620 |
+|   dataBus1_IOBUF[6]_inst  |     0.615 |
+|   dataBus1_IOBUF[7]_inst  |     0.624 |
+|   dataBus1_IOBUF[8]_inst  |     1.181 |
+|   dataBus1_IOBUF[9]_inst  |     0.605 |
+|   U2                      |     0.564 |
+|   u2                      |     0.073 |
+|   v1                      |     0.015 |
+|   v2                      |     0.011 |
+|   v3                      |     0.044 |
+|   v4                      |     0.021 |
+|   v5                      |     0.142 |
++---------------------------+-----------+
+
+

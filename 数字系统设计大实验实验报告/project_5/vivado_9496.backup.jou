@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sun Apr 16 22:13:41 2017
+# Process ID: 9496
+# Current directory: G:/pro/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8916 G:\pro\project_5\project_5.xpr
+# Log file: G:/pro/project_5/vivado.log
+# Journal file: G:/pro/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/pro/project_5/project_5.xpr
+open_run synth_1 -name synth_1
+place_ports {seg_out[7]} D5
+place_ports {seg_out[6]} B2
+place_ports {seg_out[5]} B3
+place_ports {seg_out[4]} A1
+place_ports {seg_out[3]} B1
+place_ports {seg_out[2]} A3
+place_ports {seg_out[1]} A4
+place_ports {seg_out[0]} B4
+save_constraints
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+synth_design -rtl -name rtl_1
+close_design
+open_run impl_1
+current_design synth_1
+close_design
+close_design
+open_run synth_1 -name synth_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 22:34:06 2017
+# Process ID: 16572
+# Current directory: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/peoject_4/fwm_moore
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4600 C:\Users\zjton\Documents\Tencent Files\2229418979\FileRecv\peoject_4\fwm_moore\fwm_moore.xpr
+# Log file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/peoject_4/fwm_moore/vivado.log
+# Journal file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/peoject_4/fwm_moore\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/peoject_4/fwm_moore/fwm_moore.xpr}
+launch_simulation
+source fsm_moore_tb.tcl
+close_sim

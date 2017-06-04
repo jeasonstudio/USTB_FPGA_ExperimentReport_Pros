@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sat Mar 25 10:24:51 2017
+# Process ID: 23400
+# Current directory: C:/Users/z/Desktop/作业/数字逻辑/代码/fsm_mealy_1000
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11248 C:\Users\z\Desktop\作业\数字逻辑\代码\fsm_mealy_1000\fsm_mealy.xpr
+# Log file: C:/Users/z/Desktop/作业/数字逻辑/代码/fsm_mealy_1000/vivado.log
+# Journal file: C:/Users/z/Desktop/作业/数字逻辑/代码/fsm_mealy_1000\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/z/Desktop/作业/数字逻辑/代码/fsm_mealy_1000/fsm_mealy.xpr
+launch_simulation
+source fsm_mealy_tb.tcl
+close_sim

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu Mar 09 20:01:09 2017
+# Process ID: 23816
+# Current directory: C:/Users/z/Desktop/作业/数字逻辑/mult8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12600 C:\Users\z\Desktop\作业\数字逻辑\mult8\project_1.xpr
+# Log file: C:/Users/z/Desktop/作业/数字逻辑/mult8/vivado.log
+# Journal file: C:/Users/z/Desktop/作业/数字逻辑/mult8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/z/Desktop/作业/数字逻辑/mult8/project_1.xpr
+launch_simulation
+open_wave_config C:/Users/z/Desktop/作业/数字逻辑/mult8/mult8_tb_behav.wcfg
+source mult8_tb.tcl
+close_sim

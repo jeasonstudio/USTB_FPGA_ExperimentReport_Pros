@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1488883360">
+  <File Type="OPT-DCP" Name="div84_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="div84_routed.dcp"/>
+  <File Type="PA-TCL" Name="div84.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="div84_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="div84_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="div84_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="div84.hwdef"/>
+  <File Type="PWROPT-DCP" Name="div84_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="div84_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="div84_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="div84_placed.dcp"/>
+  <File Type="PLACE-IO" Name="div84_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="div84_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="div84_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="div84_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="div84_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="div84_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="div84_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="div84_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="div84_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="div84_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="div84_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="div84.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="div84_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="div84_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="div84_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="div84_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="div84_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="div84_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="div84_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="div84_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="div84_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="div84_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="div84_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="div84_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="div84_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="div84_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="div84_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="div84_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="div84_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="div84.bit"/>
+  <File Type="BG-BIN" Name="div84.bin"/>
+  <File Type="BITSTR-MSK" Name="div84.msk"/>
+  <File Type="BITSTR-RBT" Name="div84.rbt"/>
+  <File Type="BITSTR-NKY" Name="div84.nky"/>
+  <File Type="BITSTR-BMM" Name="div84_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="div84.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="div84.sysdef"/>
+  <File Type="BG-BGN" Name="div84.bgn"/>
+  <File Type="BG-DRC" Name="div84.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/div84.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="div84"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

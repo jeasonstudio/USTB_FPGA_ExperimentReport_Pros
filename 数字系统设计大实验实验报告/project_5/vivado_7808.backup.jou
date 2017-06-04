@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sun Apr 16 22:30:07 2017
+# Process ID: 7808
+# Current directory: G:/pro/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8432 G:\pro\project_5\project_5.xpr
+# Log file: G:/pro/project_5/vivado.log
+# Journal file: G:/pro/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/pro/project_5/project_5.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+open_run synth_1 -name synth_1
+close_design
+close_hw
+open_run synth_1 -name synth_1
+startgroup
+set_property package_pin "" [get_ports [list  {sel[3]}]]
+place_ports {sel[0]} H1
+endgroup
+place_ports {sel[3]} G2
+startgroup
+set_property package_pin "" [get_ports [list  {sel[2]}]]
+place_ports {sel[1]} C1
+endgroup
+save_constraints
+place_ports {sel[2]} C2
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

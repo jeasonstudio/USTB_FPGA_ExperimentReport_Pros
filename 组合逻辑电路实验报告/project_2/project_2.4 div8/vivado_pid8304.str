@@ -1,0 +1,82 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 8304
+
+Current time: 	4/18/17 2:41:23 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=SimSun,name=宋体,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	G:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	150 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 397 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// [GUI Memory]: 29 MB (+28203kb) [00:00:11]
+// [Engine Memory]: 369 MB (+235272kb) [00:00:11]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 429 MB. GUI used memory: 27 MB. Current time: 4/18/17 2:41:25 PM CST
+// [Engine Memory]: 429 MB (+43399kb) [00:00:15]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+14888kb) [00:00:18]
+// [Engine Memory]: 466 MB (+16676kb) [00:00:19]
+// [GUI Memory]: 52 MB (+5149kb) [00:00:20]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: div16_8; location: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8; part: xc7a35tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 728.777 ; gain = 118.879 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// G:aY (cq:JFrame): Elaborate Design: addNotify
+// [GUI Memory]: 57 MB (+2010kb) [00:00:57]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // G:aY (cq:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcsg324-1 Top: div16_8 
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 31 MB. Current time: 4/18/17 2:42:10 PM CST

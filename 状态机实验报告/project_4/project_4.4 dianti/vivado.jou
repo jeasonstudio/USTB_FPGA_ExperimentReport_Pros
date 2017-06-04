@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu Mar 30 08:52:42 2017
+# Process ID: 17296
+# Current directory: C:/Users/lenovo/Desktop/dianti
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent756 C:\Users\lenovo\Desktop\dianti\dianti.xpr
+# Log file: C:/Users/lenovo/Desktop/dianti/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/dianti\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/dianti/dianti.xpr

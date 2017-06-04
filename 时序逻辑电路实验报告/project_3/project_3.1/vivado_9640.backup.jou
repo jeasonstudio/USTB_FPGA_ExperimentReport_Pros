@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Mar 29 13:05:18 2017
+# Process ID: 9640
+# Current directory: C:/Users/布/Desktop/scroll
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3808 C:\Users\布\Desktop\scroll\scroll.xpr
+# Log file: C:/Users/布/Desktop/scroll/vivado.log
+# Journal file: C:/Users/布/Desktop/scroll\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/布/Desktop/scroll/scroll.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/布/Desktop/scroll/scroll.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]

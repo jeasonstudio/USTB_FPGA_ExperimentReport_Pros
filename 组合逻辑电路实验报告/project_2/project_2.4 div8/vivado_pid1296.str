@@ -1,0 +1,243 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 1296
+
+Current time: 	4/17/17 8:34:03 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=SimSun,name=宋体,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	G:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 468 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.xpr 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 35 MB (+34633kb) [00:00:04]
+// [Engine Memory]: 430 MB (+299047kb) [00:00:04]
+// [GUI Memory]: 47 MB (+10526kb) [00:00:05]
+// [Engine Memory]: 468 MB (+17420kb) [00:00:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/数字逻辑实验/实验二/div16_8' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1141kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: div16_8; location: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8; part: xc7a35tcsg324-1
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 486 MB. GUI used memory: 32 MB. Current time: 4/17/17 8:34:04 PM CST
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 492 MB (+1143kb) [00:00:09]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v), U1 - div16_8 (div16_8.v)]", 6, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v), U1 - div16_8 (div16_8.v)]", 6, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v)]", 5, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v)]", 5, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// [GUI Memory]: 54 MB (+1152kb) [00:00:17]
+selectCodeEditor("div16_8_tb.v", 202, 209); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 254, 210); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8_tb.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 291, 230); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 240, 214); // bl:J (JPanel:JComponent, cq:JFrame)
+// [Engine Memory]: 525 MB (+8492kb) [00:00:23]
+selectCodeEditor("div16_8_tb.v", 153, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 242, 215); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8_tb.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 151, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 216, 255); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 242, 282); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 2, 239); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8_tb.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 249, 271); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8_tb.v", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 155, 291); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 216, 313); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 283, 322); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 279, 330); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 59 MB (+1824kb) [00:00:45]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("div16_8_tb.v", 218, 335); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 257, 310); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 228, 337); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 228, 274); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 258, 271); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 221, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("div16_8_tb.v", 245, 281); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 65 MB (+3540kb) [00:01:07]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("div16_8_tb.v", 129, 322); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "div16_8.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("div16_8.v", 84, 274); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 74 MB (+5971kb) [00:01:19]
+selectCodeEditor("div16_8.v", 170, 130); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v)]", 5, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, div16_8_tb (div16_8_tb.v)]", 5, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("div16_8_tb.v", 205, 237); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "div16_8_tb.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:I, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bF (cq:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'div16_8_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2015.4.2 (64-bit)   **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016   **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav/xsim.dir/div16_8_tb_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Mon Apr 17 20:36:06 2017... 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "div16_8_tb_behav -key {Behavioral:sim_1:Functional:div16_8_tb} -tclbatch {div16_8_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 78 MB (+356kb) [00:02:11]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source div16_8_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'div16_8_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 772.680 ; gain = 4.105 
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // f:bF (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 539 MB. GUI used memory: 41 MB. Current time: 4/17/17 8:36:09 PM CST
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:I, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:I, cq:JFrame)
+// [Engine Memory]: 559 MB (+8070kb) [00:02:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 39 MB. Current time: 4/17/17 8:36:44 PM CST
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // F:w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cq:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - div16_8_tb", "DesignTask.SIMULATION");
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_CLOSE
+// G:aY (cq:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Confirm Close"); // G:aY (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:I, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bF (cq:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'div16_8_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav' 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:bF)
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav' 
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: Vivado Simulator 2015.4 Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved. Running: G:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 28b939f519d342f2b22ba2154aba7d61 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div16_8_tb_behav xil_defaultlib.div16_8_tb xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.div16_8 Compiling module xil_defaultlib.div16_8_tb Compiling module xil_defaultlib.glbl 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot div16_8_tb_behav  ****** Webtalk v2015.4.2 (64-bit)   **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016   **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div16_8/div16_8.sim/sim_1/behav/xsim.dir/div16_8_tb_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Mon Apr 17 20:36:55 2017... 
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled 
+// Tcl Message: 1     while executing "catch {rdi::run_program $scr_file} error_log"     (procedure "::tclapp::xilinx::xsim::usf_launch_script" line 35)     invoked from within "::tclapp::xilinx::xsim::usf_launch_script "xsim" $step"     (procedure "tclapp::xilinx::xsim::elaborate" line 13)     invoked from within "tclapp::xilinx::xsim::elaborate { -simset sim_1 -mode behavioral -run_dir C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div..." 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// 'e' command handler elapsed time: 3 seconds
+dismissDialog("Run Simulation"); // f:bF (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// G:aY (cq:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // G:aY (cq:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcsg324-1 Top: div16_8 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sun Apr 16 22:25:59 2017
+# Process ID: 6944
+# Current directory: G:/pro/project_5/project_5.runs/impl_1
+# Command line: vivado.exe -log Greedy_Snake.vdi -applog -messageDb vivado.pb -mode batch -source Greedy_Snake.tcl -notrace
+# Log file: G:/pro/project_5/project_5.runs/impl_1/Greedy_Snake.vdi
+# Journal file: G:/pro/project_5/project_5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Greedy_Snake.tcl -notrace

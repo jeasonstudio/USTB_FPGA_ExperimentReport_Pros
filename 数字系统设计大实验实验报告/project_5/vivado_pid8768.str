@@ -1,0 +1,191 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 8768
+
+Current time: 	4/19/17 7:55:40 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	G:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/project_5
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 492 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Administrator\Desktop\project_5\project_5.xpr. Version: Vivado v2015.4.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Administrator/Desktop/project_5/project_5.xpr 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 36 MB (+34943kb) [00:00:04]
+// [Engine Memory]: 429 MB (+297843kb) [00:00:04]
+// [GUI Memory]: 38 MB (+29kb) [00:00:05]
+// [GUI Memory]: 49 MB (+9945kb) [00:00:05]
+// [Engine Memory]: 471 MB (+22551kb) [00:00:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/project_5/project_5.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 502 MB (+7634kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 33 MB. Current time: 4/19/17 7:55:41 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_5; location: C:/Users/Administrator/Desktop/project_5; part: xc7a35tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 762.434 ; gain = 138.719 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// G:aY (cq:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // G:aY (cq:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcsg324-1 Top: Greedy_Snake 
+// [Engine Memory]: 571 MB (+46119kb) [00:00:14]
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 698 MB (+102833kb) [00:00:19]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 33 MB. Current time: 4/19/17 7:55:54 PM CST
+// [Engine Memory]: 792 MB (+61466kb) [00:00:21]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 840 MB (+8708kb) [00:00:21]
+// [GUI Memory]: 57 MB (+6009kb) [00:00:21]
+// [Engine Memory]: 891 MB (+9395kb) [00:00:21]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 74 MB (+14860kb) [00:00:22]
+// Schematic: addNotify
+// [Engine Memory]: 952 MB (+17184kb) [00:00:22]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:32 ; elapsed = 00:00:17 . Memory (MB): peak = 814.566 ; gain = 643.605 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Greedy_Snake' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Greedy_Snake.v:1] INFO: [Synth 8-638] synthesizing module 'clk4to1' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/clk4to1.v:23] INFO: [Synth 8-256] done synthesizing module 'clk4to1' (1#1) [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/clk4to1.v:23] INFO: [Synth 8-638] synthesizing module 'Snake_one' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Snake.v:1] 
+// Tcl Message: 	Parameter UP bound to: 2'b00  	Parameter DOWN bound to: 2'b01  	Parameter LEFT bound to: 2'b10  	Parameter RIGHT bound to: 2'b11  	Parameter NONE bound to: 2'b00  	Parameter HEAD bound to: 2'b01  	Parameter BODY bound to: 2'b10  	Parameter WALL bound to: 2'b11  	Parameter PLAY bound to: 2'b10  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Snake_one' (2#1) [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Snake.v:1] INFO: [Synth 8-638] synthesizing module 'Game_ctrl_unit' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Game_ctrl_unit.v:1] 
+// Tcl Message: 	Parameter RESTART bound to: 2'b00  	Parameter START bound to: 2'b01  	Parameter PLAY bound to: 2'b10  	Parameter DIE bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Game_ctrl_unit' (3#1) [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Game_ctrl_unit.v:1] INFO: [Synth 8-638] synthesizing module 'Snake_eating_apple' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Snake_eating_apple.v:1] INFO: [Synth 8-256] done synthesizing module 'Snake_eating_apple' (4#1) [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/Snake_eating_apple.v:1] INFO: [Synth 8-638] synthesizing module 'VGA_control' [C:/Users/Administrator/Desktop/project_5/project_5.srcs/sources_1/new/VGA.v:1] 
+// Tcl Message: 	Parameter NONE bound to: 2'b00  	Parameter HEAD bound to: 2'b01  	Parameter BODY bound to: 2'b10  	Parameter WALL bound to: 2'b11  	Parameter HEAD_COLOR bound to: 3'b010  	Parameter BODY_COLOR bound to: 3'b011  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 820.555 ; gain = 649.594 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 820.555 ; gain = 649.594 --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 17 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/Administrator/Desktop/project_5/project_5.srcs/constrs_1/new/TOP.xdc] Finished Parsing XDC File [C:/Users/Administrator/Desktop/project_5/project_5.srcs/constrs_1/new/TOP.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:45 ; elapsed = 00:00:25 . Memory (MB): peak = 1181.863 ; gain = 1010.902 
+// Tcl Message: 21 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1181.863 ; gain = 413.551 
+// [GUI Memory]: 81 MB (+3016kb) [00:00:23]
+// 'dt' command handler elapsed time: 12 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Open Elaborated Design"); // bF:g (cq:JFrame)
+// [GUI Memory]: 86 MB (+1523kb) [00:01:28]
+// Elapsed time: 235 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Elaborated Design]", 14); // w:Y (v:I, cq:JFrame)
+// [GUI Memory]: 91 MB (+429kb) [00:05:55]
+// [GUI Memory]: 96 MB (+294kb) [00:06:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 61 MB. Current time: 4/19/17 8:25:57 PM CST
+// [GUI Memory]: 101 MB (+655kb) [00:59:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 56 MB. Current time: 4/19/17 8:55:57 PM CST
+// Elapsed time: 3840 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ae:JMenuItem (JPopupMenu:JComponent, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), game_ctrl_unit1 - Game_ctrl_unit (Game_ctrl_unit.v)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), game_ctrl_unit1 - Game_ctrl_unit (Game_ctrl_unit.v)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), game_ctrl_unit1 - Game_ctrl_unit (Game_ctrl_unit.v)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), snake_eating_apple1 - Snake_eating_apple (Snake_eating_apple.v)]", 5, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), snake1 - Snake_one (Snake.v)]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Greedy_Snake (Greedy_Snake.v), snake1 - Snake_one (Snake.v)]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("Snake.v", 187, 192); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 243, 166); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 220 seconds
+selectCodeEditor("Snake.v", 364, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 256, 218); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 229, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 117, 136); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 49, 129); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 38, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 319, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 343, 258); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 69, 130); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 143, 135); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 159, 114); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Snake.v", 165, 228); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 78, 121); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 105, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 377, 298); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 89 seconds
+selectCodeEditor("Snake.v", 214, 176); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 103, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Snake.v", 186, 185); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 270, 202); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 282, 204); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 147, 183); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 3, 178); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("Snake.v", 303, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Snake.v", 204, 252); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "Snake.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)

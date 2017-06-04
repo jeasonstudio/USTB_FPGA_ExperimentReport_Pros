@@ -1,0 +1,216 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 1012
+
+Current time: 	3/29/17 5:48:12 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=кнлЕ,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	E:/vivado/Vivado/2015.4/tps/win64/jre
+
+User name: 	иш
+User home directory: C:/Users/иш
+User working directory: E:/vivado/scroll
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/иш/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/иш/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	174 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 397 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\vivado\scroll\scroll.xpr. Version: Vivado v2015.4.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// [GUI Memory]: 30 MB (+28504kb) [00:00:10]
+// [Engine Memory]: 370 MB (+236915kb) [00:00:10]
+// Tcl Message: open_project E:/vivado/scroll/scroll.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/vivado/scroll/scroll.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 414 MB. GUI used memory: 26 MB. Current time: 3/29/17 5:48:14 PM CST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 44 MB (+13801kb) [00:00:16]
+// [Engine Memory]: 424 MB (+36440kb) [00:00:16]
+// [GUI Memory]: 49 MB (+2214kb) [00:00:18]
+// [Engine Memory]: 458 MB (+13604kb) [00:00:18]
+// [Engine Memory]: 487 MB (+6507kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 519 MB (+8511kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: scroll; location: E:/vivado/scroll; part: xc7a35tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:16 . Memory (MB): peak = 809.070 ; gain = 166.586 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// [GUI Memory]: 52 MB (+1268kb) [00:00:27]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 32 MB. Current time: 3/29/17 5:48:29 PM CST
+// Elapsed time: 38 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // y:k (I:JPanel, cq:JFrame)
+// PAPropertyPanels.initPanels (top.v) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v)]", 6, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U1 - clkDiv (clkDiv.v)]", 7, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U1 - clkDiv (clkDiv.v)]", 7, false); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("top.v", 103, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U2 - GPU (GPU.v)]", 8, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U2 - GPU (GPU.v)]", 8, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 55 MB (+86kb) [00:01:20]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U2 - GPU (GPU.v)]", 8, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U2 - GPU (GPU.v)]", 8, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("GPU.v", 216, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 58 MB (+158kb) [00:02:02]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 203 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // w:Y (v:I, cq:JFrame)
+// [GUI Memory]: 61 MB (+348kb) [00:04:52]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// [GUI Memory]: 69 MB (+5436kb) [00:04:54]
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 548 MB (+2273kb) [00:04:58]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 29, false); // w:Y (v:I, cq:JFrame)
+// Tcl Message: open_hw 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 29, false); // w:Y (v:I, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 38 MB. Current time: 3/29/17 5:53:00 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 29, false, false, false, false, false, true); // w:Y (v:I, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 29, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bF:g (cq:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.4   **** Build date : Feb 26 2016-04:46:14     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0003 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado/scroll/scroll.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// [Engine Memory]: 584 MB (+8894kb) [00:05:06]
+dismissDialog("Auto Connect"); // bF:g (cq:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// PAPropertyPanels.initPanels (xc7a35t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado/scroll/scroll.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'y' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+// [GUI Memory]: 74 MB (+680kb) [00:08:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 606 MB. GUI used memory: 38 MB. Current time: 3/29/17 5:57:29 PM CST
+// Elapsed time: 728 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cq:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// G:aY (cq:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Confirm Close"); // G:aY (cq:JFrame)
+// [Engine Memory]: 617 MB (+4948kb) [00:17:39]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U3 - segMsg (segMsg.v)]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U3 - segMsg (segMsg.v)]", 9, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// [GUI Memory]: 79 MB (+1823kb) [00:17:43]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U3 - segMsg (segMsg.v)]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectCodeEditor("segMsg.v", 76, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("segMsg.v", 229, 197); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("segMsg.v", 237, 209); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 636 MB. GUI used memory: 37 MB. Current time: 3/29/17 6:06:34 PM CST
+// Elapsed time: 550 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "GPU.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 283 seconds
+selectCodeEditor("GPU.v", 145, 163); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("GPU.v", 179, 157); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("GPU.v", 180, 156); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("GPU.v", 86, 106); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("GPU.v", 88, 106, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("GPU.v", 92, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("GPU.v", 92, 72); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U1 - clkDiv (clkDiv.v)]", 7, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top (top.v), U1 - clkDiv (clkDiv.v)]", 7, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+// Elapsed time: 219 seconds
+selectCodeEditor("clkDiv.v", 172, 340); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 83 MB (+395kb) [00:36:56]
+// Elapsed time: 245 seconds
+selectCodeEditor("top.v", 260, 19); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("top.v", 260, 19); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("top.v", 260, 19); // bl:J (JPanel:JComponent, cq:JFrame)

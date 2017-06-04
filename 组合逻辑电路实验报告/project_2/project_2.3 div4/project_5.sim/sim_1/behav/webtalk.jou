@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 17 20:33:46 2017
+# Process ID: 2580
+# Current directory: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div4/project_5.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div4/project_5.sim/sim_1/behav/xsim.dir/div84_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div4/project_5.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div4/project_5.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Administrator/Desktop/数字逻辑/数字逻辑实验/实验二/div4/project_5.sim/sim_1/behav/xsim.dir/div84_tb_behav/webtalk/xsim_webtalk.tcl -notrace

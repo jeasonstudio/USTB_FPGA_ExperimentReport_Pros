@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 21:13:38 2017
+# Process ID: 4724
+# Current directory: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_1/project_1.runs/synth_1/top.vds
+# Journal file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

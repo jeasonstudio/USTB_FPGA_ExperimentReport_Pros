@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1488940201">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="OPT-DCP" Name="flowing_light_opt.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="ROUTE-DCP" Name="flowing_light_routed.dcp"/>
+  <File Type="PA-TCL" Name="flowing_light.tcl"/>
+  <File Type="INIT-TIMING" Name="flowing_light_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="flowing_light_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="flowing_light_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="flowing_light.hwdef"/>
+  <File Type="PWROPT-DCP" Name="flowing_light_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="flowing_light_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="flowing_light_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="flowing_light_placed.dcp"/>
+  <File Type="PLACE-IO" Name="flowing_light_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="flowing_light_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="flowing_light_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="flowing_light_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="flowing_light_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="flowing_light_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="flowing_light_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="flowing_light_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="flowing_light_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="flowing_light_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="flowing_light_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="flowing_light_drc_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="flowing_light.vdi"/>
+  <File Type="PHYSOPT-TIMING" Name="flowing_light_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="flowing_light_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="flowing_light_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="flowing_light_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="flowing_light_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="flowing_light_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="flowing_light_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="flowing_light_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="flowing_light_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="flowing_light_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="flowing_light_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="flowing_light_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="flowing_light_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="flowing_light_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="flowing_light_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="flowing_light_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="flowing_light.bit"/>
+  <File Type="BG-BIN" Name="flowing_light.bin"/>
+  <File Type="BITSTR-MSK" Name="flowing_light.msk"/>
+  <File Type="BITSTR-RBT" Name="flowing_light.rbt"/>
+  <File Type="BITSTR-NKY" Name="flowing_light.nky"/>
+  <File Type="BITSTR-BMM" Name="flowing_light_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="flowing_light.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="flowing_light.sysdef"/>
+  <File Type="BG-BGN" Name="flowing_light.bgn"/>
+  <File Type="BG-DRC" Name="flowing_light.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/flowing_light.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="flowing_light"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_2">
+    <File Path="$PSRCDIR/constrs_2/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_2/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

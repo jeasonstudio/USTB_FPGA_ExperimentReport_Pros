@@ -1,0 +1,104 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 3132
+
+Current time: 	4/16/17 4:24:20 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	G:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: G:/pro/project_5
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	182 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 504 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: G:\pro\project_5\project_5.xpr. Version: Vivado v2015.4.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project G:/pro/project_5/project_5.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 35 MB (+34637kb) [00:00:04]
+// [Engine Memory]: 443 MB (+313125kb) [00:00:04]
+// [GUI Memory]: 37 MB (+99kb) [00:00:05]
+// [Engine Memory]: 468 MB (+2507kb) [00:00:05]
+// [GUI Memory]: 49 MB (+9782kb) [00:00:05]
+// [Engine Memory]: 497 MB (+6429kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+1962kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 513 MB. GUI used memory: 33 MB. Current time: 4/16/17 4:24:21 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_5; location: G:/pro/project_5; part: xc7a35tcsg324-1
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 523 MB (+1415kb) [00:00:19]
+// [GUI Memory]: 57 MB (+1654kb) [00:00:19]
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // w:Y (v:I, cq:JFrame) - Node
+// [Engine Memory]: 559 MB (+10001kb) [00:00:24]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26); // w:Y (v:I, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// [GUI Memory]: 68 MB (+8502kb) [00:00:26]
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// [GUI Memory]: 77 MB (+6228kb) [00:00:26]
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bF:g (cq:JFrame):  Auto Connect : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 36 MB. Current time: 4/16/17 4:24:41 PM CST
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.4   **** Build date : Feb 26 2016-04:46:14     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// Elapsed time: 24 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bF:g)
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

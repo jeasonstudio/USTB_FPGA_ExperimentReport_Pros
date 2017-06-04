@@ -1,0 +1,529 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 21:30:00 2017
+# Process ID: 12236
+# Current directory: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.runs/synth_1
+# Command line: vivado.exe -log Greedy_Snake.vds -mode batch -messageDb vivado.pb -notrace -source Greedy_Snake.tcl
+# Log file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.runs/synth_1/Greedy_Snake.vds
+# Journal file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Greedy_Snake.tcl -notrace
+Command: synth_design -top Greedy_Snake -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 285.738 ; gain = 114.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Greedy_Snake' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Greedy_Snake.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk4to1' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/clk4to1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk4to1' (1#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/clk4to1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Snake_one' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:1]
+	Parameter UP bound to: 2'b00 
+	Parameter DOWN bound to: 2'b01 
+	Parameter LEFT bound to: 2'b10 
+	Parameter RIGHT bound to: 2'b11 
+	Parameter NONE bound to: 2'b00 
+	Parameter HEAD bound to: 2'b01 
+	Parameter BODY bound to: 2'b10 
+	Parameter WALL bound to: 2'b11 
+	Parameter PLAY bound to: 2'b10 
+WARNING: [Synth 8-567] referenced signal 'cube_x' should be on the sensitivity list [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:340]
+WARNING: [Synth 8-567] referenced signal 'cube_y' should be on the sensitivity list [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:340]
+WARNING: [Synth 8-567] referenced signal 'is_exist' should be on the sensitivity list [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:340]
+WARNING: [Synth 8-567] referenced signal 'die_flash' should be on the sensitivity list [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:340]
+INFO: [Synth 8-256] done synthesizing module 'Snake_one' (2#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:1]
+INFO: [Synth 8-638] synthesizing module 'Game_ctrl_unit' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Game_ctrl_unit.v:1]
+	Parameter RESTART bound to: 2'b00 
+	Parameter START bound to: 2'b01 
+	Parameter PLAY bound to: 2'b10 
+	Parameter DIE bound to: 2'b11 
+INFO: [Synth 8-256] done synthesizing module 'Game_ctrl_unit' (3#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Game_ctrl_unit.v:1]
+INFO: [Synth 8-638] synthesizing module 'Snake_eating_apple' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake_eating_apple.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Snake_eating_apple' (4#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake_eating_apple.v:1]
+INFO: [Synth 8-638] synthesizing module 'VGA_control' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/VGA.v:1]
+	Parameter NONE bound to: 2'b00 
+	Parameter HEAD bound to: 2'b01 
+	Parameter BODY bound to: 2'b10 
+	Parameter WALL bound to: 2'b11 
+	Parameter HEAD_COLOR bound to: 3'b010 
+	Parameter BODY_COLOR bound to: 3'b011 
+INFO: [Synth 8-256] done synthesizing module 'VGA_control' (5#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/VGA.v:1]
+INFO: [Synth 8-638] synthesizing module 'Key' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Key.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Key' (6#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Key.v:1]
+INFO: [Synth 8-638] synthesizing module 'Seg_display' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Seg_display.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Seg_display' (7#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Seg_display.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Greedy_Snake' (8#1) [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Greedy_Snake.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 322.781 ; gain = 151.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 322.781 ; gain = 151.422
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/constrs_1/new/TOP.xdc]
+Finished Parsing XDC File [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/constrs_1/new/TOP.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/constrs_1/new/TOP.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Greedy_Snake_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Greedy_Snake_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 609.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:175]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:175]
+INFO: [Synth 8-5546] ROM "cube_x" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cube_x" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cube_y" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cube_y" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "hit_wall" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hit_wall" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hit_wall" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hit_wall" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "add_cube" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "h_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "color_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "color_out0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "left_key_last" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "seg_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'snake_reg' [C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_5/project_5.srcs/sources_1/new/Snake.v:345]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 33    
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     20 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 5     
+	   6 Input     16 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 1     
+	  11 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 5     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 26    
+	   5 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 6     
+	  11 Input      1 Bit        Muxes := 5     
+	   7 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk4to1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module Snake_one 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 32    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 19    
+	   5 Input      1 Bit        Muxes := 3     
+Module Game_ctrl_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module Snake_eating_apple 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+Module VGA_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               20 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     20 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+Module Key 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
+Module Seg_display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	  11 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "add_cube" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_sync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "color_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "left_key_last" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 609.574 ; gain = 438.215
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\snake1/is_exist_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\snake1/is_exist_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\snake1/is_exist_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Seg_display1/seg_out_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (\snake1/is_exist_reg[2] ) is unused and will be removed from module Greedy_Snake.
+WARNING: [Synth 8-3332] Sequential element (\snake1/is_exist_reg[1] ) is unused and will be removed from module Greedy_Snake.
+WARNING: [Synth 8-3332] Sequential element (\snake1/is_exist_reg[0] ) is unused and will be removed from module Greedy_Snake.
+WARNING: [Synth 8-3332] Sequential element (\game_ctrl_unit1/restart_reg ) is unused and will be removed from module Greedy_Snake.
+WARNING: [Synth 8-3332] Sequential element (\Seg_display1/seg_out_reg[7] ) is unused and will be removed from module Greedy_Snake.
+WARNING: [Synth 8-3332] Sequential element (\clk4to1/cnt1_reg[2] ) is unused and will be removed from module Greedy_Snake.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 609.574 ; gain = 438.215
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 609.574 ; gain = 438.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance '\snake1/addcube_state_reg ' (FDCE) to '\Seg_display1/addcube_state_reg '
+WARNING: [Synth 8-3332] Sequential element (\snake1/addcube_state_reg ) is unused and will be removed from module Greedy_Snake.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    45|
+|3     |LUT1   |   122|
+|4     |LUT2   |   162|
+|5     |LUT3   |    53|
+|6     |LUT4   |   138|
+|7     |LUT5   |   100|
+|8     |LUT6   |   301|
+|9     |FDCE   |   241|
+|10    |FDPE   |    19|
+|11    |FDRE   |   235|
+|12    |FDSE   |     4|
+|13    |LD     |     2|
+|14    |IBUF   |     6|
+|15    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------------+------+
+|      |Instance              |Module             |Cells |
++------+----------------------+-------------------+------+
+|1     |top                   |                   |  1447|
+|2     |  Seg_display1        |Seg_display        |   195|
+|3     |  clk4to1             |clk4to1            |     4|
+|4     |  game_ctrl_unit1     |Game_ctrl_unit     |   158|
+|5     |  key1                |Key                |   145|
+|6     |  snake1              |Snake_one          |   564|
+|7     |  snake_eating_apple1 |Snake_eating_apple |   202|
+|8     |  vga_control         |VGA_control        |   154|
++------+----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 626.016 ; gain = 454.656
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 626.016 ; gain = 126.777
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 626.016 ; gain = 454.656
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 626.016 ; gain = 420.555
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 626.016 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 19 21:30:44 2017...

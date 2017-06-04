@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 22:07:48 2017
+# Process ID: 12552
+# Current directory: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_3.3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6140 C:\Users\zjton\Documents\Tencent Files\2229418979\FileRecv\project_3.3\loadsranm.xpr
+# Log file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_3.3/vivado.log
+# Journal file: C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_3.3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zjton/Documents/Tencent Files/2229418979/FileRecv/project_3.3/loadsranm.xpr}
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -name rtl_1

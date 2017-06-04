@@ -1,0 +1,99 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 3484
+
+Current time: 	4/19/17 9:28:43 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=кнлЕ,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	E:/vivado/Vivado/2015.4/tps/win64/jre
+
+User name: 	иш
+User home directory: C:/Users/иш
+User working directory: E:/vivado/scroll
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/иш/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/иш/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 385 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 36 MB (+35222kb) [00:00:11]
+// [Engine Memory]: 354 MB (+219666kb) [00:00:11]
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\vivado\scroll\scroll.xpr. Version: Vivado v2015.4.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/vivado/scroll/scroll.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/vivado/scroll/scroll.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 396 MB. GUI used memory: 27 MB. Current time: 4/19/17 9:28:46 PM CST
+// [Engine Memory]: 396 MB (+25563kb) [00:00:16]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+7266kb) [00:00:18]
+// [GUI Memory]: 47 MB (+325kb) [00:00:21]
+// [Engine Memory]: 459 MB (+44958kb) [00:00:21]
+// [Engine Memory]: 493 MB (+11438kb) [00:00:23]
+// [GUI Memory]: 53 MB (+3214kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: scroll; location: E:/vivado/scroll; part: xc7a35tcsg324-1
+// [GUI Memory]: 57 MB (+1844kb) [00:00:28]
+// Tcl Message: open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:16 . Memory (MB): peak = 794.832 ; gain = 155.465 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // y:k (I:JPanel, cq:JFrame)
+// PAPropertyPanels.initPanels (top.v) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+// [GUI Memory]: 61 MB (+780kb) [00:00:49]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("top.v", 0, 26); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("top.v", 76, 126, true, false, false, false, false); // bl:J (JPanel:JComponent, cq:JFrame) - Shift Key
+typeControlKey((HResource) null, "top.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 64 MB (+670kb) [00:01:59]
+// Elapsed time: 291 seconds
+typeControlKey((HResource) null, "top.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 - clkDiv (clkDiv.v)]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 - clkDiv (clkDiv.v)]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U1 - clkDiv (clkDiv.v)]", 2, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("clkDiv.v", 244, 166); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "clkDiv.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)

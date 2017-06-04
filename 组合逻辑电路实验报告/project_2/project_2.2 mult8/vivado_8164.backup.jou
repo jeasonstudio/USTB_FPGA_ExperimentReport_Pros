@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 17:18:02 2017
+# Process ID: 8164
+# Current directory: C:/Users/Administrator/Desktop/123/shiyan/实验二/mult8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4640 C:\Users\Administrator\Desktop\123\shiyan\实验二\mult8\project_1.xpr
+# Log file: C:/Users/Administrator/Desktop/123/shiyan/实验二/mult8/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/123/shiyan/实验二/mult8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/123/shiyan/实验二/mult8/project_1.xpr
+launch_simulation

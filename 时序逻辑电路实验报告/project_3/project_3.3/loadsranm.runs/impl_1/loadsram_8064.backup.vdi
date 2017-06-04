@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 03 11:51:48 2017
+# Process ID: 8064
+# Current directory: D:/loadsranm/loadsranm.runs/impl_1
+# Command line: vivado.exe -log loadsram.vdi -applog -messageDb vivado.pb -mode batch -source loadsram.tcl -notrace
+# Log file: D:/loadsranm/loadsranm.runs/impl_1/loadsram.vdi
+# Journal file: D:/loadsranm/loadsranm.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source loadsram.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.2
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/loadsranm/loadsranm.srcs/constrs_1/new/guanjiao.xdc]
+Finished Parsing XDC File [D:/loadsranm/loadsranm.srcs/constrs_1/new/guanjiao.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 448.844 ; gain = 237.574
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.189 . Memory (MB): peak = 452.918 ; gain = 2.676

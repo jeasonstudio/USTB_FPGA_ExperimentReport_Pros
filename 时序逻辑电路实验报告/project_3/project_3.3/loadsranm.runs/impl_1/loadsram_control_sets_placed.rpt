@@ -1,0 +1,159 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Tue Apr 04 15:25:07 2017
+| Host         : MrC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file loadsram_control_sets_placed.rpt
+| Design       : loadsram
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |   106 |
+| Minimum Number of register sites lost to control set restrictions |   704 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              64 |           21 |
+| No           | No                    | Yes                    |              64 |           64 |
+| No           | Yes                   | No                     |              32 |           32 |
+| Yes          | No                    | No                     |              48 |           15 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+---------------------+---------------------------------+------------------+----------------+
+|           Clock Signal           |    Enable Signal    |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------------------------+---------------------+---------------------------------+------------------+----------------+
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[6]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[15]_LDC_i_1_n_0 |                     | U2/msgArray_reg[15]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[14]_LDC_i_1_n_0 |                     | U2/msgArray_reg[14]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[13]_LDC_i_1_n_0 |                     | U2/msgArray_reg[13]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[12]_LDC_i_1_n_0 |                     | U2/msgArray_reg[12]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[11]_LDC_i_1_n_0 |                     | U2/msgArray_reg[11]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[10]_LDC_i_1_n_0 |                     | U2/msgArray_reg[10]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[9]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[9]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[8]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[8]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[7]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[7]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[2]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[6]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[5]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[5]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[4]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[4]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[3]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[3]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[31]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[31]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[30]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[30]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[2]_LDC_i_1_n_0  |                1 |              1 |
+|  U2/msgArray_reg[0]_LDC_i_1_n_0  |                     | U2/msgArray_reg[0]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[29]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[29]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[28]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[28]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[27]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[27]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[26]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[26]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[25]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[25]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[24]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[24]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[23]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[23]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[22]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[22]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[21]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[21]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[20]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[20]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[1]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[1]_LDC_i_1_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[19]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[19]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[18]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[18]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[17]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[17]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[16]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[16]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[15]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[15]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[14]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[14]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[13]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[13]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[12]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[12]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[11]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[11]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[10]_LDC_i_2_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[10]_LDC_i_1_n_0 |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[0]_LDC_i_2_n_0  |                1 |              1 |
+|  clk3hz_BUFG                     |                     | U2/msgArray_reg[0]_LDC_i_1_n_0  |                1 |              1 |
+|  U2/msgArray_reg[9]_LDC_i_1_n_0  |                     | U2/msgArray_reg[9]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[8]_LDC_i_1_n_0  |                     | U2/msgArray_reg[8]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[7]_LDC_i_1_n_0  |                     | U2/msgArray_reg[7]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[6]_LDC_i_1_n_0  |                     | U2/msgArray_reg[6]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[5]_LDC_i_1_n_0  |                     | U2/msgArray_reg[5]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[4]_LDC_i_1_n_0  |                     | U2/msgArray_reg[4]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[3]_LDC_i_1_n_0  |                     | U2/msgArray_reg[3]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[31]_LDC_i_1_n_0 |                     | U2/msgArray_reg[31]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[30]_LDC_i_1_n_0 |                     | U2/msgArray_reg[30]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[2]_LDC_i_1_n_0  |                     | U2/msgArray_reg[2]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[29]_LDC_i_1_n_0 |                     | U2/msgArray_reg[29]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[28]_LDC_i_1_n_0 |                     | U2/msgArray_reg[28]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[27]_LDC_i_1_n_0 |                     | U2/msgArray_reg[27]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[26]_LDC_i_1_n_0 |                     | U2/msgArray_reg[26]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[25]_LDC_i_1_n_0 |                     | U2/msgArray_reg[25]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[24]_LDC_i_1_n_0 |                     | U2/msgArray_reg[24]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[23]_LDC_i_1_n_0 |                     | U2/msgArray_reg[23]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[22]_LDC_i_1_n_0 |                     | U2/msgArray_reg[22]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[21]_LDC_i_1_n_0 |                     | U2/msgArray_reg[21]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[20]_LDC_i_1_n_0 |                     | U2/msgArray_reg[20]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[1]_LDC_i_1_n_0  |                     | U2/msgArray_reg[1]_LDC_i_2_n_0  |                1 |              1 |
+|  U2/msgArray_reg[19]_LDC_i_1_n_0 |                     | U2/msgArray_reg[19]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[18]_LDC_i_1_n_0 |                     | U2/msgArray_reg[18]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[17]_LDC_i_1_n_0 |                     | U2/msgArray_reg[17]_LDC_i_2_n_0 |                1 |              1 |
+|  U2/msgArray_reg[16]_LDC_i_1_n_0 |                     | U2/msgArray_reg[16]_LDC_i_2_n_0 |                1 |              1 |
+|  clk6hz_BUFG                     |                     |                                 |                1 |              2 |
+|  clk6hz_BUFG                     | v3/E[3]             |                                 |                1 |              4 |
+|  clk6hz_BUFG                     | v3/E[2]             |                                 |                2 |              4 |
+|  clk6hz_BUFG                     | v3/E[1]             |                                 |                3 |              4 |
+|  clk6hz_BUFG                     | v3/E[0]             |                                 |                3 |              4 |
+|  clk6hz_BUFG                     | v5/number_reg[31]_0 | v5/number_reg[31]               |                3 |             16 |
+|  clk100mhz_IBUF_BUFG             | u2/LED[15]_i_1_n_0  |                                 |                3 |             16 |
+|  clk100mhz_IBUF_BUFG             | u2/tDataBus0        |                                 |                3 |             16 |
+|  clk100mhz_IBUF_BUFG             |                     |                                 |                8 |             27 |
+|  clk_190Hz_BUFG                  |                     |                                 |               12 |             35 |
++----------------------------------+---------------------+---------------------------------+------------------+----------------+
+
+

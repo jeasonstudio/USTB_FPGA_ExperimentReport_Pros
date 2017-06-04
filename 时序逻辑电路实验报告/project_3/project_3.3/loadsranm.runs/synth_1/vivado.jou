@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Tue Apr 04 15:24:11 2017
+# Process ID: 35208
+# Current directory: D:/loadsranm/loadsranm.runs/synth_1
+# Command line: vivado.exe -log loadsram.vds -mode batch -messageDb vivado.pb -notrace -source loadsram.tcl
+# Log file: D:/loadsranm/loadsranm.runs/synth_1/loadsram.vds
+# Journal file: D:/loadsranm/loadsranm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source loadsram.tcl -notrace

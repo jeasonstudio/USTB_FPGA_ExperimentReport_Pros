@@ -1,0 +1,128 @@
+/*
+
+Vivado v2015.4.2 (64-bit)
+SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+Process ID: 17296
+
+Current time: 	3/30/17 8:53:12 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	lenovo
+User home directory: C:/Users/lenovo
+User working directory: C:/Users/lenovo/Desktop/dianti
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 508 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\lenovo\Desktop\dianti\dianti.xpr. Version: Vivado v2015.4.2 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// [GUI Memory]: 46 MB (+46177kb) [00:00:10]
+// [Engine Memory]: 359 MB (+224590kb) [00:00:10]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/lenovo/Desktop/dianti/dianti.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/lenovo/Desktop/dianti/dianti.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Surface/Desktop/vivado_project/dianti' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+1658kb) [00:00:12]
+// [Engine Memory]: 424 MB (+49815kb) [00:00:12]
+// [Engine Memory]: 457 MB (+12124kb) [00:00:14]
+// [Engine Memory]: 503 MB (+24859kb) [00:00:16]
+// [GUI Memory]: 55 MB (+2636kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 33 MB. Current time: 3/30/17 8:53:12 AM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: dianti; location: C:/Users/lenovo/Desktop/dianti; part: xc7a35tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 747.020 ; gain = 198.320 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 60 MB (+1988kb) [00:01:07]
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u0 - clkdiv (clkdiv.v)]", 2, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u1 - dianti (dianti.v)]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u1 - dianti (dianti.v)]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u1 - dianti (dianti.v)]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u1 - dianti (dianti.v)]", 3, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), u1 - dianti (dianti.v)]", 3, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("dianti.v", 256, 242); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 530 MB. GUI used memory: 36 MB. Current time: 3/30/17 8:54:40 AM CST
+// [Engine Memory]: 531 MB (+2515kb) [00:01:45]
+// Elapsed time: 65 seconds
+selectCodeEditor("dianti.v", 168, 138); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 131, 278); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("dianti.v", 207, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 199, 136); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 63 MB (+219kb) [00:03:25]
+// [GUI Memory]: 67 MB (+699kb) [00:03:35]
+// Elapsed time: 54 seconds
+selectCodeEditor("dianti.v", 123, 78); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 123, 99); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 36 MB. Current time: 3/30/17 8:56:55 AM CST
+selectCodeEditor("dianti.v", 123, 178); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 109, 203); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 119, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 96, 213); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 113, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 113, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 113, 193, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("dianti.v", 113, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 63, 330); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 63, 332, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("dianti.v", 133, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("dianti.v", 66, 334); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "dianti.v", 'c'); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

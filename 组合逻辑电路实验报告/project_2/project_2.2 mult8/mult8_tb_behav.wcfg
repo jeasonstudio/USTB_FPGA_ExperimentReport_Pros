@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mult8_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mult8_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4521fs"></ZoomEndTime>
+      <Cursor1Time time="2000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="3" />
+   <wvobject db_ref_id="1" fp_name="/mult8_tb/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mult8_tb/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mult8_tb/p" type="array">
+      <obj_property name="ElementShortName">p[15:0]</obj_property>
+      <obj_property name="ObjectShortName">p[15:0]</obj_property>
+   </wvobject>
+</wave_config>

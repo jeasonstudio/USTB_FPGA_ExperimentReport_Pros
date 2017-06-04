@@ -1,0 +1,70 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Wed Apr 19 21:31:46 2017
+| Host         : JeasonStudio running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Greedy_Snake_control_sets_placed.rpt
+| Design       : Greedy_Snake
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    17 |
+| Minimum Number of register sites lost to control set restrictions |    59 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |            9 |
+| No           | No                    | Yes                    |             148 |           50 |
+| No           | Yes                   | No                     |              39 |           11 |
+| Yes          | No                    | No                     |             179 |           49 |
+| Yes          | No                    | Yes                    |             112 |           38 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+----------------------------------------+-----------------------+------------------+----------------+
+|     Clock Signal    |              Enable Signal             |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++---------------------+----------------------------------------+-----------------------+------------------+----------------+
+|  clk0_IBUF_BUFG     |                                        | snake1/hit_body_reg_0 |                1 |              2 |
+|  vga_control/snake0 |                                        |                       |                1 |              2 |
+|  clk_BUFG           | Seg_display1/point[14]                 | snake1/hit_body_reg_0 |                1 |              4 |
+|  clk_BUFG           | Seg_display1/point[10]                 | snake1/hit_body_reg_0 |                2 |              4 |
+|  clk_BUFG           | Seg_display1/point[6]                  | snake1/hit_body_reg_0 |                2 |              4 |
+|  clk_BUFG           | Seg_display1/sel[3]_i_1_n_0            | snake1/hit_body_reg_0 |                2 |              4 |
+|  clk_BUFG           | snake1/cube_y[0][5]_i_1_n_0            | snake1/hit_body_reg_0 |                2 |              6 |
+|  clk_BUFG           | snake1/cube_x[0][5]_i_1_n_0            | snake1/hit_body_reg_0 |                2 |              6 |
+|  clk_BUFG           | Seg_display1/seg_out[6]_i_1_n_0        | snake1/hit_body_reg_0 |                4 |              7 |
+|  clk_BUFG           | vga_control/line_cnt[9]_i_1_n_0        | snake1/hit_body_reg_0 |                3 |             10 |
+|  clk_BUFG           | snake_eating_apple1/E[0]               | snake1/hit_body_reg_0 |                6 |             11 |
+|  clk_BUFG           |                                        |                       |                8 |             21 |
+|  clk_BUFG           | reset_IBUF                             |                       |                6 |             23 |
+|  clk_BUFG           | snake1/cube_y[1][5]_i_1_n_0            | snake1/hit_body_reg_0 |                6 |             24 |
+|  clk_BUFG           | game_ctrl_unit1/clk_cnt[31]_i_1__1_n_0 | snake1/hit_body_reg_0 |                8 |             32 |
+|  clk_BUFG           | snake1/cube_y[3][5]_i_1_n_0            |                       |               43 |            156 |
+|  clk_BUFG           |                                        | snake1/hit_body_reg_0 |               60 |            185 |
++---------------------+----------------------------------------+-----------------------+------------------+----------------+
+
+

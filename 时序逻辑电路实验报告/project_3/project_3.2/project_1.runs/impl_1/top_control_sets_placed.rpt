@@ -1,0 +1,61 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Wed Apr 19 21:15:04 2017
+| Host         : JeasonStudio running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     8 |
+| Minimum Number of register sites lost to control set restrictions |    29 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             126 |           42 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               5 |            4 |
+| Yes          | No                    | No                     |               8 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------+-----------------+----------------------+------------------+----------------+
+|     Clock Signal     |  Enable Signal  |   Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------------+-----------------+----------------------+------------------+----------------+
+|  clk190hz_BUFG       | u2/u2/rst00_out |                      |                3 |              4 |
+|  clk190hz_BUFG       | u2/u2/rst00_out | u2/u2/pos[3]_i_1_n_0 |                1 |              4 |
+|  clk190hz_BUFG       | u3/u/rst0       |                      |                1 |              4 |
+|  clk190hz_BUFG       | u3/u/rst0       | u3/u/SS[0]           |                1 |              4 |
+|  clk190hz_BUFG       |                 | u3/u/SS[0]           |                4 |              5 |
+|  clk100mhz_IBUF_BUFG |                 |                      |                7 |             26 |
+|  clk3hz_BUFG         |                 |                      |               11 |             32 |
+|  clk190hz_BUFG       |                 |                      |               24 |             68 |
++----------------------+-----------------+----------------------+------------------+----------------+
+
+
